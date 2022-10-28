@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log(data);
 
       //Send data
-      const response = await axios.post("http://localhost:3000/form", data);
+      const response = await axios.post("http://localhost:4000/form", data);
       console.log(response);
     });
 });
